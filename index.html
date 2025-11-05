@@ -4,32 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PKBM Celah Cahaya: Pendidikan Masa Depan</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    <header class="hero">
+    <header class="main-header">
+        <div class="container header-content">
+            <a href="#" class="logo">PKBM Celah Cahaya</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#about">Tentang Kami</a></li>
+                    <li><a href="#programs">Program Kami</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+            </nav>
+            <div class="hamburger-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </header>
+
+    <section class="hero">
         <div class="hero-content">
             <h1>PKBM Celah Cahaya</h1>
             <p>Menerangi Langkah, Memberdayakan Potensi, Mewujudkan Mimpi</p>
             <div class="tagline-button">
                 <i class="fas fa-lightbulb"></i> Pusat Kegiatan Belajar Sepanjang Hayat
             </div>
+            <a href="#programs" class="hero-cta-button">Jelajahi Program Kami <i class="fas fa-arrow-down"></i></a>
         </div>
-    </header>
+    </section>
 
     <section id="about" class="section">
         <div class="container">
-            <h2><i class="fas fa-info-circle"></i> Tentang Kami</h2>
+            <h2 class="section-title"><i class="fas fa-info-circle"></i> Tentang Kami</h2>
             <div class="about-grid">
                 <div class="about-text">
-                    <p><strong>PKBM Celah Cahaya</strong> adalah lembaga pendidikan nonformal terakreditasi B (per 2023) di Singajaya, Garut. Kami berdedikasi menciptakan ruang belajar yang inklusif, membekali masyarakat dengan Ijazah dan Keterampilan praktis.</p>
-                    <p>Kami percaya bahwa setiap individu berhak mendapatkan kesempatan kedua untuk meraih pendidikan yang layak dan kemandirian ekonomi.</p>
+                    <p><strong>PKBM Celah Cahaya</strong> adalah lembaga pendidikan nonformal terakreditasi **B** (per 2023) di Singajaya, Garut. Kami berdedikasi menciptakan ruang belajar yang inklusif, membekali masyarakat dengan Ijazah dan Keterampilan praktis.</p>
+                    <p>Kami percaya bahwa setiap individu berhak mendapatkan kesempatan kedua untuk meraih pendidikan yang layak dan kemandirian ekonomi. Melalui berbagai program inovatif, kami berkomitmen untuk menjadi motor penggerak perubahan positif di komunitas kami.</p>
                 </div>
                 <div class="about-location">
                     <h3><i class="fas fa-map-marker-alt"></i> Lokasi Kami</h3>
                     <p>Kp. Sukawangi, Desa Sukawangi, Kec. Singajaya, Kab. Garut, Jawa Barat.</p>
+                    <div class="map-placeholder">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15830.076395304193!2d107.9427613697754!3d-7.408223699999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e65c02d1a2f2603%3A0xf02069e2c66d2f1!2sSukawangi%2C%20Singajaya%2C%20Garut%20Regency%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1701389230000!5m2!1sen!2sid" width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
                 </div>
             </div>
         </div>
@@ -37,27 +60,31 @@
 
     <section id="programs" class="section programs-section">
         <div class="container">
-            <h2><i class="fas fa-graduation-cap"></i> Program Unggulan dan Fitur Istimewa</h2>
+            <h2 class="section-title"><i class="fas fa-graduation-cap"></i> Program Unggulan dan Fitur Istimewa</h2>
             <div class="program-grid">
                 <div class="program-card program-card-1">
                     <i class="fas fa-book-open"></i>
                     <h3>Pendidikan Kesetaraan (Paket A, B, C)</h3>
                     <p>Akses pendidikan formal yang fleksibel untuk mendapatkan ijazah setara SD, SMP, dan SMA.</p>
+                    <a href="#" class="read-more">Detail <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="program-card program-card-2 special-feature">
                     <i class="fas fa-laptop-code"></i>
                     <h3>Literasi Digital & Komputerisasi</h3>
-                    <p>Kelas komputer intensif. Kami fokus pada Kecakapan Abad 21 seperti penguasaan Office dan akses E-Commerce.</p>
+                    <p>Kelas komputer intensif. Kami fokus pada **Kecakapan Abad 21** seperti penguasaan Office dan akses E-Commerce.</p>
+                    <a href="#" class="read-more">Detail <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="program-card program-card-3 special-feature">
                     <i class="fas fa-tools"></i>
                     <h3>Pelatihan Kewirausahaan Kreatif</h3>
-                    <p>Pelatihan Life Skills: Kerajinan bernilai jual tinggi. Peserta didorong menjadi 'Creator' produk lokal.</p>
+                    <p>Pelatihan Life Skills: Kerajinan bernilai jual tinggi. Peserta didorong menjadi 'Creator' produk lokal dan membangun usaha kecil.</p>
+                    <a href="#" class="read-more">Detail <i class="fas fa-arrow-right"></i></a>
                 </div>
                 <div class="program-card program-card-4">
                     <i class="fas fa-users"></i>
                     <h3>Community Hub & Mentoring</h3>
-                    <p>Menciptakan komunitas belajar yang suportif. Program mentoring pasca-lulus untuk pengembangan karir.</p>
+                    <p>Menciptakan komunitas belajar yang suportif. Program mentoring pasca-lulus untuk pengembangan karir dan networking.</p>
+                    <a href="#" class="read-more">Detail <i class="fas fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
@@ -66,16 +93,86 @@
     <section class="cta-section">
         <div class="container">
             <p>"PKBM Celah Cahaya adalah jembatan nyata menuju masa depan yang lebih cerah."</p>
-            <a href="#" class="cta-button">DAFTAR SEKARANG <i class="fas fa-arrow-right"></i></a>
+            <a href="#contact" class="cta-button">DAFTAR SEKARANG <i class="fas fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-images"></i> Galeri Kegiatan Kami</h2>
+            <p class="text-center">Lihat aktivitas dan keceriaan di PKBM Celah Cahaya!</p>
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                     <img src="path/to/image1.jpg" alt="Kegiatan 1">
+                     <div class="overlay">Pendidikan Kesetaraan</div>
+                </div>
+                <div class="gallery-item">
+                     <img src="path/to/image2.jpg" alt="Kegiatan 2">
+                     <div class="overlay">Pelatihan Komputer</div>
+                </div>
+                <div class="gallery-item">
+                     <img src="path/to/image3.jpg" alt="Kegiatan 3">
+                     <div class="overlay">Kerajinan Tangan</div>
+                </div>
+                <div class="gallery-item">
+                     <img src="path/to/image4.jpg" alt="Kegiatan 4">
+                     <div class="overlay">Diskusi Kelompok</div>
+                </div>
+                 </div>
+            </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2 class="section-title"><i class="fas fa-envelope"></i> Hubungi Kami</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Informasi Kontak</h3>
+                    <p><i class="fas fa-phone-alt"></i> Telepon: (0262) XXXX-XXXX</p>
+                    <p><i class="fas fa-whatsapp"></i> WhatsApp: +62 812-XXXX-XXXX</p>
+                    <p><i class="fas fa-at"></i> Email: info@pkbmcelahcahaya.org</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Alamat: Kp. Sukawangi, Desa Sukawangi, Kec. Singajaya, Kab. Garut, Jawa Barat.</p>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <h3>Kirim Pesan</h3>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Nama Lengkap:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subjek:</label>
+                            <input type="text" id="subject" name="subject">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Pesan Anda:</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="cta-button">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 PKBM Celah Cahaya. Semua Hak Dilindungi.</p>
+        <div class="container">
+            <p>&copy; 2024 PKBM Celah Cahaya. Dikelola oleh Tim Relawan. Semua Hak Dilindungi.</p>
+        </div>
     </footer>
 
     <script>
         document.addEventListener('DOMContentLoaded', () => {
+            // Animasi Scroll Reveal
             const sections = document.querySelectorAll('.section');
             const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
@@ -84,11 +181,30 @@
                     }
                 });
             }, {
-                threshold: 0.1 
+                threshold: 0.1 // Ketika 10% dari section terlihat
             });
 
             sections.forEach(section => {
                 observer.observe(section);
+            });
+
+            // Hamburger Menu Toggle
+            const hamburger = document.querySelector('.hamburger-menu');
+            const navMenu = document.querySelector('.main-nav ul');
+
+            hamburger.addEventListener('click', () => {
+                navMenu.classList.toggle('active');
+                hamburger.querySelector('i').classList.toggle('fa-bars');
+                hamburger.querySelector('i').classList.toggle('fa-times'); // Ubah ikon X
+            });
+
+            // Tutup menu saat link diklik (untuk mobile)
+            document.querySelectorAll('.main-nav ul li a').forEach(link => {
+                link.addEventListener('click', () => {
+                    navMenu.classList.remove('active');
+                    hamburger.querySelector('i').classList.remove('fa-times');
+                    hamburger.querySelector('i').classList.add('fa-bars');
+                });
             });
         });
     </script>
